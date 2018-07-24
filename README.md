@@ -1,24 +1,3 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This is a Standalone Site Performance Tool Developed on Ruby On Rails with MySql Database. Providing an Site Performance Report on the Basis of Most Common and Famous Site Speed and Ranking Tools Google Page Speed Insight and YSlow by Yahoo. Pull this Project and Use it. If you face any difficulty feel free to contact akash.nitsri@gmail.com
