@@ -1,0 +1,378 @@
+{
+ "captchaResult": "CAPTCHA_NOT_NEEDED",
+ "kind": "pagespeedonline#result",
+ "id": "https://bhajanaarti.com/",
+ "responseCode": 200,
+ "title": "Biggest Bhajan | Kirtan | Satsang | Mantra | Hindu God Songs | Bhakti Songs Collection | BhajanAarti.com",
+ "ruleGroups": {
+  "SPEED": {
+   "score": 83
+  }
+ },
+ "loadingExperience": {
+  "id": "https://bhajanaarti.com/",
+  "metrics": {
+   "FIRST_CONTENTFUL_PAINT_MS": {
+    "median": 566,
+    "distributions": [
+     {
+      "min": 0,
+      "max": 984,
+      "proportion": 0.7068235294117647
+     },
+     {
+      "min": 984,
+      "max": 2073,
+      "proportion": 0.15237254901960784
+     },
+     {
+      "min": 2073,
+      "proportion": 0.14080392156862748
+     }
+    ],
+    "category": "FAST"
+   },
+   "DOM_CONTENT_LOADED_EVENT_FIRED_MS": {
+    "median": 427,
+    "distributions": [
+     {
+      "min": 0,
+      "max": 1366,
+      "proportion": 0.8426691729323309
+     },
+     {
+      "min": 1366,
+      "max": 2787,
+      "proportion": 0.06310150375939849
+     },
+     {
+      "min": 2787,
+      "proportion": 0.09422932330827065
+     }
+    ],
+    "category": "FAST"
+   }
+  },
+  "overall_category": "FAST",
+  "initial_url": "https://bhajanaarti.com/"
+ },
+ "pageStats": {
+  "numberResources": 7,
+  "numberHosts": 3,
+  "totalRequestBytes": "916",
+  "numberStaticResources": 3,
+  "htmlResponseBytes": "19144",
+  "overTheWireResponseBytes": "188948",
+  "cssResponseBytes": "2325",
+  "imageResponseBytes": "167937",
+  "javascriptResponseBytes": "35731",
+  "otherResponseBytes": "1400",
+  "numberJsResources": 1,
+  "numberCssResources": 1,
+  "numTotalRoundTrips": 10,
+  "numRenderBlockingRoundTrips": 1
+ },
+ "formattedResults": {
+  "locale": "en_US",
+  "ruleResults": {
+   "AvoidLandingPageRedirects": {
+    "localizedRuleName": "Avoid landing page redirects",
+    "ruleImpact": 0.0,
+    "groups": [
+     "SPEED"
+    ],
+    "summary": {
+     "format": "Your page has no redirects. Learn more about {{BEGIN_LINK}}avoiding landing page redirects{{END_LINK}}.",
+     "args": [
+      {
+       "type": "HYPERLINK",
+       "key": "LINK",
+       "value": "https://developers.google.com/speed/docs/insights/AvoidRedirects"
+      }
+     ]
+    }
+   },
+   "EnableGzipCompression": {
+    "localizedRuleName": "Enable compression",
+    "ruleImpact": 0.0,
+    "groups": [
+     "SPEED"
+    ],
+    "summary": {
+     "format": "You have compression enabled. Learn more about {{BEGIN_LINK}}enabling compression{{END_LINK}}.",
+     "args": [
+      {
+       "type": "HYPERLINK",
+       "key": "LINK",
+       "value": "https://developers.google.com/speed/docs/insights/EnableCompression"
+      }
+     ]
+    }
+   },
+   "LeverageBrowserCaching": {
+    "localizedRuleName": "Leverage browser caching",
+    "ruleImpact": 1.4166666666666667,
+    "groups": [
+     "SPEED"
+    ],
+    "summary": {
+     "format": "Setting an expiry date or a maximum age in the HTTP headers for static resources instructs the browser to load previously downloaded resources from local disk rather than over the network."
+    },
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "{{BEGIN_LINK}}Leverage browser caching{{END_LINK}} for the following cacheable resources:",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "key": "LINK",
+         "value": "https://developers.google.com/speed/docs/insights/LeverageBrowserCaching"
+        }
+       ]
+      },
+      "urls": [
+       {
+        "result": {
+         "format": "{{URL}} (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "https://bhajanaarti.com/docs/main.css"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "{{URL}} (expiration not specified)",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "https://bhajanaarti.com/images/home.jpg"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "{{URL}} ({{LIFETIME}})",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "https://www.google-analytics.com/analytics.js"
+          },
+          {
+           "type": "DURATION",
+           "key": "LIFETIME",
+           "value": "2 hours"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "MainResourceServerResponseTime": {
+    "localizedRuleName": "Reduce server response time",
+    "ruleImpact": 0.0,
+    "groups": [
+     "SPEED"
+    ],
+    "summary": {
+     "format": "Your server responded quickly. Learn more about {{BEGIN_LINK}}server response time optimization{{END_LINK}}.",
+     "args": [
+      {
+       "type": "HYPERLINK",
+       "key": "LINK",
+       "value": "https://developers.google.com/speed/docs/insights/Server"
+      }
+     ]
+    }
+   },
+   "MinifyCss": {
+    "localizedRuleName": "Minify CSS",
+    "ruleImpact": 0.0,
+    "groups": [
+     "SPEED"
+    ],
+    "summary": {
+     "format": "Your CSS is minified. Learn more about {{BEGIN_LINK}}minifying CSS{{END_LINK}}.",
+     "args": [
+      {
+       "type": "HYPERLINK",
+       "key": "LINK",
+       "value": "https://developers.google.com/speed/docs/insights/MinifyResources"
+      }
+     ]
+    }
+   },
+   "MinifyHTML": {
+    "localizedRuleName": "Minify HTML",
+    "ruleImpact": 0.0,
+    "groups": [
+     "SPEED"
+    ],
+    "summary": {
+     "format": "Your HTML is minified. Learn more about {{BEGIN_LINK}}minifying HTML{{END_LINK}}.",
+     "args": [
+      {
+       "type": "HYPERLINK",
+       "key": "LINK",
+       "value": "https://developers.google.com/speed/docs/insights/MinifyResources"
+      }
+     ]
+    }
+   },
+   "MinifyJavaScript": {
+    "localizedRuleName": "Minify JavaScript",
+    "ruleImpact": 0.0,
+    "groups": [
+     "SPEED"
+    ],
+    "summary": {
+     "format": "Your JavaScript content is minified. Learn more about {{BEGIN_LINK}}minifying JavaScript{{END_LINK}}.",
+     "args": [
+      {
+       "type": "HYPERLINK",
+       "key": "LINK",
+       "value": "https://developers.google.com/speed/docs/insights/MinifyResources"
+      }
+     ]
+    }
+   },
+   "MinimizeRenderBlockingResources": {
+    "localizedRuleName": "Eliminate render-blocking JavaScript and CSS in above-the-fold content",
+    "ruleImpact": 2.0,
+    "groups": [
+     "SPEED"
+    ],
+    "summary": {
+     "format": "Your page has {{NUM_CSS}} blocking CSS resources. This causes a delay in rendering your page.",
+     "args": [
+      {
+       "type": "INT_LITERAL",
+       "key": "NUM_CSS",
+       "value": "1"
+      }
+     ]
+    },
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "None of the above-the-fold content on your page could be rendered without waiting for the following resources to load. Try to defer or asynchronously load blocking resources, or inline the critical portions of those resources directly in the HTML."
+      }
+     },
+     {
+      "header": {
+       "format": "{{BEGIN_LINK}}Optimize CSS Delivery{{END_LINK}} of the following:",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "key": "LINK",
+         "value": "https://developers.google.com/speed/docs/insights/OptimizeCSSDelivery"
+        }
+       ]
+      },
+      "urls": [
+       {
+        "result": {
+         "format": "{{URL}}",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "https://bhajanaarti.com/docs/main.css"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "OptimizeImages": {
+    "localizedRuleName": "Optimize images",
+    "ruleImpact": 15.3626,
+    "groups": [
+     "SPEED"
+    ],
+    "summary": {
+     "format": "Properly formatting and compressing images can save many bytes of data."
+    },
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "{{BEGIN_LINK}}Optimize the following images{{END_LINK}} to reduce their size by {{SIZE_IN_BYTES}} ({{PERCENTAGE}} reduction).",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "key": "LINK",
+         "value": "https://developers.google.com/speed/docs/insights/OptimizeImages"
+        },
+        {
+         "type": "BYTES",
+         "key": "SIZE_IN_BYTES",
+         "value": "150KiB"
+        },
+        {
+         "type": "PERCENTAGE",
+         "key": "PERCENTAGE",
+         "value": "91%"
+        }
+       ]
+      },
+      "urls": [
+       {
+        "result": {
+         "format": "Compressing and resizing {{URL}} could save {{SIZE_IN_BYTES}} ({{PERCENTAGE}} reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "https://bhajanaarti.com/images/home.jpg"
+          },
+          {
+           "type": "BYTES",
+           "key": "SIZE_IN_BYTES",
+           "value": "150KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "key": "PERCENTAGE",
+           "value": "91%"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "PrioritizeVisibleContent": {
+    "localizedRuleName": "Prioritize visible content",
+    "ruleImpact": 0.0,
+    "groups": [
+     "SPEED"
+    ],
+    "summary": {
+     "format": "You have the above-the-fold content properly prioritized. Learn more about {{BEGIN_LINK}}prioritizing visible content{{END_LINK}}.",
+     "args": [
+      {
+       "type": "HYPERLINK",
+       "key": "LINK",
+       "value": "https://developers.google.com/speed/docs/insights/PrioritizeVisibleContent"
+      }
+     ]
+    }
+   }
+  }
+ },
+ "version": {
+  "major": 1,
+  "minor": 15
+ }
+}

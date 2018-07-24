@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  blog_id: 1
+  page_speed_score: 1
+  yslow_score: 1
+  load_time: 1.5
+  page_size: 1
+  total_requests: 1
+
+two:
+  blog_id: 1
+  page_speed_score: 1
+  yslow_score: 1
+  load_time: 1.5
+  page_size: 1
+  total_requests: 1
