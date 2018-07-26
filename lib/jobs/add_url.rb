@@ -7,7 +7,6 @@ class AddUrl
 	end
 
 	def self.perform(file_loc)
-		debugger
 		file_location = file_loc
 		File.open(file_location,'r').each_line do |line|
 			line = line.strip
@@ -34,6 +33,8 @@ class AddUrl
 				puts "This URL Scheme is Not Supported"
 			rescue Net::OpenTimeout
 				puts "Site is Un-Reachable. Request Time-Out"
+			rescue => e
+				puts "#{e}"
 			end
 		end
 

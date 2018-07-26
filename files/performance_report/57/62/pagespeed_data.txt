@@ -1,0 +1,847 @@
+{
+ "captchaResult": "CAPTCHA_NOT_NEEDED",
+ "kind": "pagespeedonline#result",
+ "id": "https://www.emerald-inn.co.nz/",
+ "responseCode": 200,
+ "title": "Emerald Inn - Takapuna Accommodation - Takapuna Motel in Auckland",
+ "ruleGroups": {
+  "SPEED": {
+   "score": 83
+  }
+ },
+ "loadingExperience": {
+  "initial_url": "https://www.emerald-inn.co.nz/"
+ },
+ "pageStats": {
+  "numberResources": 77,
+  "numberHosts": 13,
+  "totalRequestBytes": "18276",
+  "numberStaticResources": 60,
+  "htmlResponseBytes": "22372",
+  "overTheWireResponseBytes": "1754140",
+  "cssResponseBytes": "339402",
+  "imageResponseBytes": "961108",
+  "javascriptResponseBytes": "1219796",
+  "otherResponseBytes": "211208",
+  "numberJsResources": 22,
+  "numberCssResources": 8,
+  "numTotalRoundTrips": 18,
+  "numRenderBlockingRoundTrips": 4
+ },
+ "formattedResults": {
+  "locale": "en_US",
+  "ruleResults": {
+   "AvoidLandingPageRedirects": {
+    "localizedRuleName": "Avoid landing page redirects",
+    "ruleImpact": 0.0,
+    "groups": [
+     "SPEED"
+    ],
+    "summary": {
+     "format": "Your page has no redirects. Learn more about {{BEGIN_LINK}}avoiding landing page redirects{{END_LINK}}.",
+     "args": [
+      {
+       "type": "HYPERLINK",
+       "key": "LINK",
+       "value": "https://developers.google.com/speed/docs/insights/AvoidRedirects"
+      }
+     ]
+    }
+   },
+   "EnableGzipCompression": {
+    "localizedRuleName": "Enable compression",
+    "ruleImpact": 0.0,
+    "groups": [
+     "SPEED"
+    ],
+    "summary": {
+     "format": "You have compression enabled. Learn more about {{BEGIN_LINK}}enabling compression{{END_LINK}}.",
+     "args": [
+      {
+       "type": "HYPERLINK",
+       "key": "LINK",
+       "value": "https://developers.google.com/speed/docs/insights/EnableCompression"
+      }
+     ]
+    }
+   },
+   "LeverageBrowserCaching": {
+    "localizedRuleName": "Leverage browser caching",
+    "ruleImpact": 9.826388888888891,
+    "groups": [
+     "SPEED"
+    ],
+    "summary": {
+     "format": "Setting an expiry date or a maximum age in the HTTP headers for static resources instructs the browser to load previously downloaded resources from local disk rather than over the network."
+    },
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "{{BEGIN_LINK}}Leverage browser caching{{END_LINK}} for the following cacheable resources:",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "key": "LINK",
+         "value": "https://developers.google.com/speed/docs/insights/LeverageBrowserCaching"
+        }
+       ]
+      },
+      "urls": [
+       {
+        "result": {
+         "format": "{{URL}} ({{LIFETIME}})",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "https://www.google.com/maps/vt?pb=!1m4!1m3!1i16!2i64582!3i39977!1m4!1m3!1i16!2i64583!3i39977!1m4!1m3!1i16!2i64582!3i39978!1m4!1m3!1i16!2i64582!3i39979!1m4!1m3!1i16!2i64583!3i39978!1m4!1m3!1i16!2i64583!3i39979!1m4!1m3!1i16!2i64584!3i39977!1m4!1m3!1i16!2i64585!3i39977!1m4!1m3!1i16!2i64584!3i39978!1m4!1m3!1i16!2i64584!3i39979!1m4!1m3!1i16!2i64585!3i39978!1m4!1m3!1i16!2i64585!3i39979!2m3!1e0!2sm!3i429132968!2m38!1e2!2sspotlight!5i1!8m34!1m8!12m7!10b0!12splaceholder!19m3!1b0!2zNSw2LDI0LDQ1LDc1LDkz!3s0x0%3A0x1dbceb5a1c73b5af!20e1!2m7!1s0x6d0d37628e01def3%3A0x1dbceb5a1c73b5af!2s16+The+Promenade%2C+Takapuna%2C+Auckland+0622%2C+New+Zealand!4m2!3d-36.7838213!4d174.7742967!5e0!6b1!11e11!13m13!2sa!14b1!18m6!5b0!6b0!8b0!9b1!10b0!11b0!22m3!6e2!7e3!8e2!19u14!19u29!3m9!2sen-US!3sIN!5e289!12m1!1e68!12m3!1e37!2m1!1ssmartmaps!4e3!12m1!5b1!23i4111425&client=google-maps-embed&token=29005"
+          },
+          {
+           "type": "DURATION",
+           "key": "LIFETIME",
+           "value": "5 minutes"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "{{URL}} ({{LIFETIME}})",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "https://www.google.com/maps/vt?pb=!1m4!1m3!1i16!2i64586!3i39977!1m4!1m3!1i16!2i64586!3i39978!1m4!1m3!1i16!2i64586!3i39979!2m3!1e0!2sm!3i429132968!2m38!1e2!2sspotlight!5i1!8m34!1m8!12m7!10b0!12splaceholder!19m3!1b0!2zNSw2LDI0LDQ1LDc1LDkz!3s0x0%3A0x1dbceb5a1c73b5af!20e1!2m7!1s0x6d0d37628e01def3%3A0x1dbceb5a1c73b5af!2s16+The+Promenade%2C+Takapuna%2C+Auckland+0622%2C+New+Zealand!4m2!3d-36.7838213!4d174.7742967!5e0!6b1!11e11!13m13!2sa!14b1!18m6!5b0!6b0!8b0!9b1!10b0!11b0!22m3!6e2!7e3!8e2!19u14!19u29!3m9!2sen-US!3sIN!5e289!12m1!1e68!12m3!1e37!2m1!1ssmartmaps!4e3!12m1!5b1!23i4111425&client=google-maps-embed&token=3469"
+          },
+          {
+           "type": "DURATION",
+           "key": "LIFETIME",
+           "value": "5 minutes"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "{{URL}} ({{LIFETIME}})",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "https://www.google.com/maps/vt?pb=!1m5!1m4!1i16!2i64582!3i39977!4i256!2m3!1e0!2sm!3i429132968!2m38!1e2!2sspotlight!5i1!8m34!1m8!12m7!10b0!12splaceholder!19m3!1b0!2zNSw2LDI0LDQ1LDc1LDkz!3s0x0%3A0x1dbceb5a1c73b5af!20e1!2m7!1s0x6d0d37628e01def3%3A0x1dbceb5a1c73b5af!2s16+The+Promenade%2C+Takapuna%2C+Auckland+0622%2C+New+Zealand!4m2!3d-36.7838213!4d174.7742967!5e0!6b1!11e11!13m13!2sa!14b1!18m6!5b0!6b0!8b0!9b1!10b0!11b0!22m3!6e2!7e3!8e2!19u14!19u29!3m9!2sen-US!3sIN!5e289!12m1!1e68!12m3!1e37!2m1!1ssmartmaps!4e0!23i4111425&client=google-maps-embed&token=99290"
+          },
+          {
+           "type": "DURATION",
+           "key": "LIFETIME",
+           "value": "5 minutes"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "{{URL}} ({{LIFETIME}})",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "https://www.google.com/maps/vt?pb=!1m5!1m4!1i16!2i64582!3i39978!4i256!2m3!1e0!2sm!3i429132968!2m38!1e2!2sspotlight!5i1!8m34!1m8!12m7!10b0!12splaceholder!19m3!1b0!2zNSw2LDI0LDQ1LDc1LDkz!3s0x0%3A0x1dbceb5a1c73b5af!20e1!2m7!1s0x6d0d37628e01def3%3A0x1dbceb5a1c73b5af!2s16+The+Promenade%2C+Takapuna%2C+Auckland+0622%2C+New+Zealand!4m2!3d-36.7838213!4d174.7742967!5e0!6b1!11e11!13m13!2sa!14b1!18m6!5b0!6b0!8b0!9b1!10b0!11b0!22m3!6e2!7e3!8e2!19u14!19u29!3m9!2sen-US!3sIN!5e289!12m1!1e68!12m3!1e37!2m1!1ssmartmaps!4e0!23i4111425&client=google-maps-embed&token=31113"
+          },
+          {
+           "type": "DURATION",
+           "key": "LIFETIME",
+           "value": "5 minutes"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "{{URL}} ({{LIFETIME}})",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "https://www.google.com/maps/vt?pb=!1m5!1m4!1i16!2i64582!3i39979!4i256!2m3!1e0!2sm!3i429132968!2m38!1e2!2sspotlight!5i1!8m34!1m8!12m7!10b0!12splaceholder!19m3!1b0!2zNSw2LDI0LDQ1LDc1LDkz!3s0x0%3A0x1dbceb5a1c73b5af!20e1!2m7!1s0x6d0d37628e01def3%3A0x1dbceb5a1c73b5af!2s16+The+Promenade%2C+Takapuna%2C+Auckland+0622%2C+New+Zealand!4m2!3d-36.7838213!4d174.7742967!5e0!6b1!11e11!13m13!2sa!14b1!18m6!5b0!6b0!8b0!9b1!10b0!11b0!22m3!6e2!7e3!8e2!19u14!19u29!3m9!2sen-US!3sIN!5e289!12m1!1e68!12m3!1e37!2m1!1ssmartmaps!4e0!23i4111425&client=google-maps-embed&token=94007"
+          },
+          {
+           "type": "DURATION",
+           "key": "LIFETIME",
+           "value": "5 minutes"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "{{URL}} ({{LIFETIME}})",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "https://www.google.com/maps/vt?pb=!1m5!1m4!1i16!2i64583!3i39977!4i256!2m3!1e0!2sm!3i429132968!2m38!1e2!2sspotlight!5i1!8m34!1m8!12m7!10b0!12splaceholder!19m3!1b0!2zNSw2LDI0LDQ1LDc1LDkz!3s0x0%3A0x1dbceb5a1c73b5af!20e1!2m7!1s0x6d0d37628e01def3%3A0x1dbceb5a1c73b5af!2s16+The+Promenade%2C+Takapuna%2C+Auckland+0622%2C+New+Zealand!4m2!3d-36.7838213!4d174.7742967!5e0!6b1!11e11!13m13!2sa!14b1!18m6!5b0!6b0!8b0!9b1!10b0!11b0!22m3!6e2!7e3!8e2!19u14!19u29!3m9!2sen-US!3sIN!5e289!12m1!1e68!12m3!1e37!2m1!1ssmartmaps!4e0!23i4111425&client=google-maps-embed&token=28502"
+          },
+          {
+           "type": "DURATION",
+           "key": "LIFETIME",
+           "value": "5 minutes"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "{{URL}} ({{LIFETIME}})",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "https://www.google.com/maps/vt?pb=!1m5!1m4!1i16!2i64583!3i39978!4i256!2m3!1e0!2sm!3i429132968!2m38!1e2!2sspotlight!5i1!8m34!1m8!12m7!10b0!12splaceholder!19m3!1b0!2zNSw2LDI0LDQ1LDc1LDkz!3s0x0%3A0x1dbceb5a1c73b5af!20e1!2m7!1s0x6d0d37628e01def3%3A0x1dbceb5a1c73b5af!2s16+The+Promenade%2C+Takapuna%2C+Auckland+0622%2C+New+Zealand!4m2!3d-36.7838213!4d174.7742967!5e0!6b1!11e11!13m13!2sa!14b1!18m6!5b0!6b0!8b0!9b1!10b0!11b0!22m3!6e2!7e3!8e2!19u14!19u29!3m9!2sen-US!3sIN!5e289!12m1!1e68!12m3!1e37!2m1!1ssmartmaps!4e0!23i4111425&client=google-maps-embed&token=91396"
+          },
+          {
+           "type": "DURATION",
+           "key": "LIFETIME",
+           "value": "5 minutes"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "{{URL}} ({{LIFETIME}})",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "https://www.google.com/maps/vt?pb=!1m5!1m4!1i16!2i64583!3i39979!4i256!2m3!1e0!2sm!3i429132968!2m38!1e2!2sspotlight!5i1!8m34!1m8!12m7!10b0!12splaceholder!19m3!1b0!2zNSw2LDI0LDQ1LDc1LDkz!3s0x0%3A0x1dbceb5a1c73b5af!20e1!2m7!1s0x6d0d37628e01def3%3A0x1dbceb5a1c73b5af!2s16+The+Promenade%2C+Takapuna%2C+Auckland+0622%2C+New+Zealand!4m2!3d-36.7838213!4d174.7742967!5e0!6b1!11e11!13m13!2sa!14b1!18m6!5b0!6b0!8b0!9b1!10b0!11b0!22m3!6e2!7e3!8e2!19u14!19u29!3m9!2sen-US!3sIN!5e289!12m1!1e68!12m3!1e37!2m1!1ssmartmaps!4e0!23i4111425&client=google-maps-embed&token=23219"
+          },
+          {
+           "type": "DURATION",
+           "key": "LIFETIME",
+           "value": "5 minutes"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "{{URL}} ({{LIFETIME}})",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "https://www.google.com/maps/vt?pb=!1m5!1m4!1i16!2i64584!3i39977!4i256!2m3!1e0!2sm!3i429132968!2m38!1e2!2sspotlight!5i1!8m34!1m8!12m7!10b0!12splaceholder!19m3!1b0!2zNSw2LDI0LDQ1LDc1LDkz!3s0x0%3A0x1dbceb5a1c73b5af!20e1!2m7!1s0x6d0d37628e01def3%3A0x1dbceb5a1c73b5af!2s16+The+Promenade%2C+Takapuna%2C+Auckland+0622%2C+New+Zealand!4m2!3d-36.7838213!4d174.7742967!5e0!6b1!11e11!13m13!2sa!14b1!18m6!5b0!6b0!8b0!9b1!10b0!11b0!22m3!6e2!7e3!8e2!19u14!19u29!3m9!2sen-US!3sIN!5e289!12m1!1e68!12m3!1e37!2m1!1ssmartmaps!4e0!23i4111425&client=google-maps-embed&token=88785"
+          },
+          {
+           "type": "DURATION",
+           "key": "LIFETIME",
+           "value": "5 minutes"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "{{URL}} ({{LIFETIME}})",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "https://www.google.com/maps/vt?pb=!1m5!1m4!1i16!2i64584!3i39978!4i256!2m3!1e0!2sm!3i429132968!2m38!1e2!2sspotlight!5i1!8m34!1m8!12m7!10b0!12splaceholder!19m3!1b0!2zNSw2LDI0LDQ1LDc1LDkz!3s0x0%3A0x1dbceb5a1c73b5af!20e1!2m7!1s0x6d0d37628e01def3%3A0x1dbceb5a1c73b5af!2s16+The+Promenade%2C+Takapuna%2C+Auckland+0622%2C+New+Zealand!4m2!3d-36.7838213!4d174.7742967!5e0!6b1!11e11!13m13!2sa!14b1!18m6!5b0!6b0!8b0!9b1!10b0!11b0!22m3!6e2!7e3!8e2!19u14!19u29!3m9!2sen-US!3sIN!5e289!12m1!1e68!12m3!1e37!2m1!1ssmartmaps!4e0!23i4111425&client=google-maps-embed&token=20608"
+          },
+          {
+           "type": "DURATION",
+           "key": "LIFETIME",
+           "value": "5 minutes"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "{{URL}} ({{LIFETIME}})",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "https://www.google.com/maps/vt?pb=!1m5!1m4!1i16!2i64584!3i39979!4i256!2m3!1e0!2sm!3i429132968!2m38!1e2!2sspotlight!5i1!8m34!1m8!12m7!10b0!12splaceholder!19m3!1b0!2zNSw2LDI0LDQ1LDc1LDkz!3s0x0%3A0x1dbceb5a1c73b5af!20e1!2m7!1s0x6d0d37628e01def3%3A0x1dbceb5a1c73b5af!2s16+The+Promenade%2C+Takapuna%2C+Auckland+0622%2C+New+Zealand!4m2!3d-36.7838213!4d174.7742967!5e0!6b1!11e11!13m13!2sa!14b1!18m6!5b0!6b0!8b0!9b1!10b0!11b0!22m3!6e2!7e3!8e2!19u14!19u29!3m9!2sen-US!3sIN!5e289!12m1!1e68!12m3!1e37!2m1!1ssmartmaps!4e0!23i4111425&client=google-maps-embed&token=83502"
+          },
+          {
+           "type": "DURATION",
+           "key": "LIFETIME",
+           "value": "5 minutes"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "{{URL}} ({{LIFETIME}})",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "https://www.google.com/maps/vt?pb=!1m5!1m4!1i16!2i64585!3i39977!4i256!2m3!1e0!2sm!3i429132968!2m38!1e2!2sspotlight!5i1!8m34!1m8!12m7!10b0!12splaceholder!19m3!1b0!2zNSw2LDI0LDQ1LDc1LDkz!3s0x0%3A0x1dbceb5a1c73b5af!20e1!2m7!1s0x6d0d37628e01def3%3A0x1dbceb5a1c73b5af!2s16+The+Promenade%2C+Takapuna%2C+Auckland+0622%2C+New+Zealand!4m2!3d-36.7838213!4d174.7742967!5e0!6b1!11e11!13m13!2sa!14b1!18m6!5b0!6b0!8b0!9b1!10b0!11b0!22m3!6e2!7e3!8e2!19u14!19u29!3m9!2sen-US!3sIN!5e289!12m1!1e68!12m3!1e37!2m1!1ssmartmaps!4e0!23i4111425&client=google-maps-embed&token=17997"
+          },
+          {
+           "type": "DURATION",
+           "key": "LIFETIME",
+           "value": "5 minutes"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "{{URL}} ({{LIFETIME}})",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "https://www.google.com/maps/vt?pb=!1m5!1m4!1i16!2i64585!3i39978!4i256!2m3!1e0!2sm!3i429132968!2m38!1e2!2sspotlight!5i1!8m34!1m8!12m7!10b0!12splaceholder!19m3!1b0!2zNSw2LDI0LDQ1LDc1LDkz!3s0x0%3A0x1dbceb5a1c73b5af!20e1!2m7!1s0x6d0d37628e01def3%3A0x1dbceb5a1c73b5af!2s16+The+Promenade%2C+Takapuna%2C+Auckland+0622%2C+New+Zealand!4m2!3d-36.7838213!4d174.7742967!5e0!6b1!11e11!13m13!2sa!14b1!18m6!5b0!6b0!8b0!9b1!10b0!11b0!22m3!6e2!7e3!8e2!19u14!19u29!3m9!2sen-US!3sIN!5e289!12m1!1e68!12m3!1e37!2m1!1ssmartmaps!4e0!23i4111425&client=google-maps-embed&token=80891"
+          },
+          {
+           "type": "DURATION",
+           "key": "LIFETIME",
+           "value": "5 minutes"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "{{URL}} ({{LIFETIME}})",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "https://www.google.com/maps/vt?pb=!1m5!1m4!1i16!2i64585!3i39979!4i256!2m3!1e0!2sm!3i429132968!2m38!1e2!2sspotlight!5i1!8m34!1m8!12m7!10b0!12splaceholder!19m3!1b0!2zNSw2LDI0LDQ1LDc1LDkz!3s0x0%3A0x1dbceb5a1c73b5af!20e1!2m7!1s0x6d0d37628e01def3%3A0x1dbceb5a1c73b5af!2s16+The+Promenade%2C+Takapuna%2C+Auckland+0622%2C+New+Zealand!4m2!3d-36.7838213!4d174.7742967!5e0!6b1!11e11!13m13!2sa!14b1!18m6!5b0!6b0!8b0!9b1!10b0!11b0!22m3!6e2!7e3!8e2!19u14!19u29!3m9!2sen-US!3sIN!5e289!12m1!1e68!12m3!1e37!2m1!1ssmartmaps!4e0!23i4111425&client=google-maps-embed&token=12714"
+          },
+          {
+           "type": "DURATION",
+           "key": "LIFETIME",
+           "value": "5 minutes"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "{{URL}} ({{LIFETIME}})",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "https://www.google.com/maps/vt?pb=!1m5!1m4!1i16!2i64586!3i39977!4i256!2m3!1e0!2sm!3i429129704!2m38!1e2!2sspotlight!5i1!8m34!1m8!12m7!10b0!12splaceholder!19m3!1b0!2zNSw2LDI0LDQ1LDc1LDkz!3s0x0%3A0x1dbceb5a1c73b5af!20e1!2m7!1s0x6d0d37628e01def3%3A0x1dbceb5a1c73b5af!2s16+The+Promenade%2C+Takapuna%2C+Auckland+0622%2C+New+Zealand!4m2!3d-36.7838213!4d174.7742967!5e0!6b1!11e11!13m13!2sa!14b1!18m6!5b0!6b0!8b0!9b1!10b0!11b0!22m3!6e2!7e3!8e2!19u14!19u29!3m9!2sen-US!3sIN!5e289!12m1!1e68!12m3!1e37!2m1!1ssmartmaps!4e0!23i4111425&client=google-maps-embed&token=124302"
+          },
+          {
+           "type": "DURATION",
+           "key": "LIFETIME",
+           "value": "5 minutes"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "{{URL}} ({{LIFETIME}})",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "https://www.google.com/maps/vt?pb=!1m5!1m4!1i16!2i64586!3i39978!4i256!2m3!1e0!2sm!3i429129704!2m38!1e2!2sspotlight!5i1!8m34!1m8!12m7!10b0!12splaceholder!19m3!1b0!2zNSw2LDI0LDQ1LDc1LDkz!3s0x0%3A0x1dbceb5a1c73b5af!20e1!2m7!1s0x6d0d37628e01def3%3A0x1dbceb5a1c73b5af!2s16+The+Promenade%2C+Takapuna%2C+Auckland+0622%2C+New+Zealand!4m2!3d-36.7838213!4d174.7742967!5e0!6b1!11e11!13m13!2sa!14b1!18m6!5b0!6b0!8b0!9b1!10b0!11b0!22m3!6e2!7e3!8e2!19u14!19u29!3m9!2sen-US!3sIN!5e289!12m1!1e68!12m3!1e37!2m1!1ssmartmaps!4e0!23i4111425&client=google-maps-embed&token=56125"
+          },
+          {
+           "type": "DURATION",
+           "key": "LIFETIME",
+           "value": "5 minutes"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "{{URL}} ({{LIFETIME}})",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "https://www.google.com/maps/vt?pb=!1m5!1m4!1i16!2i64586!3i39979!4i256!2m3!1e0!2sm!3i429129704!2m38!1e2!2sspotlight!5i1!8m34!1m8!12m7!10b0!12splaceholder!19m3!1b0!2zNSw2LDI0LDQ1LDc1LDkz!3s0x0%3A0x1dbceb5a1c73b5af!20e1!2m7!1s0x6d0d37628e01def3%3A0x1dbceb5a1c73b5af!2s16+The+Promenade%2C+Takapuna%2C+Auckland+0622%2C+New+Zealand!4m2!3d-36.7838213!4d174.7742967!5e0!6b1!11e11!13m13!2sa!14b1!18m6!5b0!6b0!8b0!9b1!10b0!11b0!22m3!6e2!7e3!8e2!19u14!19u29!3m9!2sen-US!3sIN!5e289!12m1!1e68!12m3!1e37!2m1!1ssmartmaps!4e0!23i4111425&client=google-maps-embed&token=119019"
+          },
+          {
+           "type": "DURATION",
+           "key": "LIFETIME",
+           "value": "5 minutes"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "{{URL}} ({{LIFETIME}})",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "https://www.googletagmanager.com/gtag/js?id=UA-12100704-1"
+          },
+          {
+           "type": "DURATION",
+           "key": "LIFETIME",
+           "value": "15 minutes"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "{{URL}} ({{LIFETIME}})",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "https://maps.googleapis.com/maps/api/js?client=google-maps-embed&paint_origin=&libraries=geometry,search&v=3.exp&language=en_US&region=in"
+          },
+          {
+           "type": "DURATION",
+           "key": "LIFETIME",
+           "value": "30 minutes"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "{{URL}} ({{LIFETIME}})",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "https://www.google-analytics.com/analytics.js"
+          },
+          {
+           "type": "DURATION",
+           "key": "LIFETIME",
+           "value": "2 hours"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "MainResourceServerResponseTime": {
+    "localizedRuleName": "Reduce server response time",
+    "ruleImpact": 0.0,
+    "groups": [
+     "SPEED"
+    ],
+    "summary": {
+     "format": "Your server responded quickly. Learn more about {{BEGIN_LINK}}server response time optimization{{END_LINK}}.",
+     "args": [
+      {
+       "type": "HYPERLINK",
+       "key": "LINK",
+       "value": "https://developers.google.com/speed/docs/insights/Server"
+      }
+     ]
+    }
+   },
+   "MinifyCss": {
+    "localizedRuleName": "Minify CSS",
+    "ruleImpact": 0.0371,
+    "groups": [
+     "SPEED"
+    ],
+    "summary": {
+     "format": "Compacting CSS code can save many bytes of data and speed up download and parse times."
+    },
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "{{BEGIN_LINK}}Minify CSS{{END_LINK}} for the following resources to reduce their size by {{SIZE_IN_BYTES}} ({{PERCENTAGE}} reduction).",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "key": "LINK",
+         "value": "https://developers.google.com/speed/docs/insights/MinifyResources"
+        },
+        {
+         "type": "BYTES",
+         "key": "SIZE_IN_BYTES",
+         "value": "371B"
+        },
+        {
+         "type": "PERCENTAGE",
+         "key": "PERCENTAGE",
+         "value": "23%"
+        }
+       ]
+      },
+      "urls": [
+       {
+        "result": {
+         "format": "Minifying {{URL}} could save {{SIZE_IN_BYTES}} ({{PERCENTAGE}} reduction) after compression.",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "https://9yy8z1s220v41j20541qabme-wpengine.netdna-ssl.com/wp-content/themes/emerald/style.css?ver=4.9.6"
+          },
+          {
+           "type": "BYTES",
+           "key": "SIZE_IN_BYTES",
+           "value": "371B"
+          },
+          {
+           "type": "PERCENTAGE",
+           "key": "PERCENTAGE",
+           "value": "23%"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "MinifyHTML": {
+    "localizedRuleName": "Minify HTML",
+    "ruleImpact": 0.056600000000000004,
+    "groups": [
+     "SPEED"
+    ],
+    "summary": {
+     "format": "Compacting HTML code, including any inline JavaScript and CSS contained in it, can save many bytes of data and speed up download and parse times."
+    },
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "{{BEGIN_LINK}}Minify HTML{{END_LINK}} for the following resources to reduce their size by {{SIZE_IN_BYTES}} ({{PERCENTAGE}} reduction).",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "key": "LINK",
+         "value": "https://developers.google.com/speed/docs/insights/MinifyResources"
+        },
+        {
+         "type": "BYTES",
+         "key": "SIZE_IN_BYTES",
+         "value": "566B"
+        },
+        {
+         "type": "PERCENTAGE",
+         "key": "PERCENTAGE",
+         "value": "12%"
+        }
+       ]
+      },
+      "urls": [
+       {
+        "result": {
+         "format": "Minifying {{URL}} could save {{SIZE_IN_BYTES}} ({{PERCENTAGE}} reduction) after compression.",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "https://www.emerald-inn.co.nz/"
+          },
+          {
+           "type": "BYTES",
+           "key": "SIZE_IN_BYTES",
+           "value": "566B"
+          },
+          {
+           "type": "PERCENTAGE",
+           "key": "PERCENTAGE",
+           "value": "12%"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "MinifyJavaScript": {
+    "localizedRuleName": "Minify JavaScript",
+    "ruleImpact": 0.0,
+    "groups": [
+     "SPEED"
+    ],
+    "summary": {
+     "format": "Your JavaScript content is minified. Learn more about {{BEGIN_LINK}}minifying JavaScript{{END_LINK}}.",
+     "args": [
+      {
+       "type": "HYPERLINK",
+       "key": "LINK",
+       "value": "https://developers.google.com/speed/docs/insights/MinifyResources"
+      }
+     ]
+    }
+   },
+   "MinimizeRenderBlockingResources": {
+    "localizedRuleName": "Eliminate render-blocking JavaScript and CSS in above-the-fold content",
+    "ruleImpact": 8.0,
+    "groups": [
+     "SPEED"
+    ],
+    "summary": {
+     "format": "Your page has {{NUM_CSS}} blocking CSS resources. This causes a delay in rendering your page.",
+     "args": [
+      {
+       "type": "INT_LITERAL",
+       "key": "NUM_CSS",
+       "value": "1"
+      }
+     ]
+    },
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "None of the above-the-fold content on your page could be rendered without waiting for the following resources to load. Try to defer or asynchronously load blocking resources, or inline the critical portions of those resources directly in the HTML."
+      }
+     },
+     {
+      "header": {
+       "format": "{{BEGIN_LINK}}Optimize CSS Delivery{{END_LINK}} of the following:",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "key": "LINK",
+         "value": "https://developers.google.com/speed/docs/insights/OptimizeCSSDelivery"
+        }
+       ]
+      },
+      "urls": [
+       {
+        "result": {
+         "format": "{{URL}}",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "https://9yy8z1s220v41j20541qabme-wpengine.netdna-ssl.com/wp-content/plugins/svg-support/css/svgs-attachment.css?ver=4.9.6"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "OptimizeImages": {
+    "localizedRuleName": "Optimize images",
+    "ruleImpact": 1.2712000000000003,
+    "groups": [
+     "SPEED"
+    ],
+    "summary": {
+     "format": "Properly formatting and compressing images can save many bytes of data."
+    },
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "{{BEGIN_LINK}}Optimize the following images{{END_LINK}} to reduce their size by {{SIZE_IN_BYTES}} ({{PERCENTAGE}} reduction).",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "key": "LINK",
+         "value": "https://developers.google.com/speed/docs/insights/OptimizeImages"
+        },
+        {
+         "type": "BYTES",
+         "key": "SIZE_IN_BYTES",
+         "value": "12.4KiB"
+        },
+        {
+         "type": "PERCENTAGE",
+         "key": "PERCENTAGE",
+         "value": "19%"
+        }
+       ]
+      },
+      "urls": [
+       {
+        "result": {
+         "format": "Compressing {{URL}} could save {{SIZE_IN_BYTES}} ({{PERCENTAGE}} reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "https://9yy8z1s220v41j20541qabme-wpengine.netdna-ssl.com/wp-content/themes/emerald/img/trip-advisor.png"
+          },
+          {
+           "type": "BYTES",
+           "key": "SIZE_IN_BYTES",
+           "value": "8.5KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "key": "PERCENTAGE",
+           "value": "17%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Compressing {{URL}} could save {{SIZE_IN_BYTES}} ({{PERCENTAGE}} reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "https://9yy8z1s220v41j20541qabme-wpengine.netdna-ssl.com/wp-content/themes/emerald/img/comment-icon.png"
+          },
+          {
+           "type": "BYTES",
+           "key": "SIZE_IN_BYTES",
+           "value": "1.2KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "key": "PERCENTAGE",
+           "value": "59%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Compressing {{URL}} could save {{SIZE_IN_BYTES}} ({{PERCENTAGE}} reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "https://9yy8z1s220v41j20541qabme-wpengine.netdna-ssl.com/wp-content/themes/emerald/img/location-icon.png"
+          },
+          {
+           "type": "BYTES",
+           "key": "SIZE_IN_BYTES",
+           "value": "1.1KiB"
+          },
+          {
+           "type": "PERCENTAGE",
+           "key": "PERCENTAGE",
+           "value": "61%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Compressing {{URL}} could save {{SIZE_IN_BYTES}} ({{PERCENTAGE}} reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "https://9yy8z1s220v41j20541qabme-wpengine.netdna-ssl.com/wp-content/uploads/2018/06/Emerald-footer-logo-1.png"
+          },
+          {
+           "type": "BYTES",
+           "key": "SIZE_IN_BYTES",
+           "value": "736B"
+          },
+          {
+           "type": "PERCENTAGE",
+           "key": "PERCENTAGE",
+           "value": "23%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Compressing {{URL}} could save {{SIZE_IN_BYTES}} ({{PERCENTAGE}} reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "https://9yy8z1s220v41j20541qabme-wpengine.netdna-ssl.com/wp-content/uploads/2018/06/logo-mobile.png"
+          },
+          {
+           "type": "BYTES",
+           "key": "SIZE_IN_BYTES",
+           "value": "688B"
+          },
+          {
+           "type": "PERCENTAGE",
+           "key": "PERCENTAGE",
+           "value": "14%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Compressing {{URL}} could save {{SIZE_IN_BYTES}} ({{PERCENTAGE}} reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "https://9yy8z1s220v41j20541qabme-wpengine.netdna-ssl.com/wp-content/themes/emerald/img/slider-arrow-next.png"
+          },
+          {
+           "type": "BYTES",
+           "key": "SIZE_IN_BYTES",
+           "value": "111B"
+          },
+          {
+           "type": "PERCENTAGE",
+           "key": "PERCENTAGE",
+           "value": "28%"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Compressing {{URL}} could save {{SIZE_IN_BYTES}} ({{PERCENTAGE}} reduction).",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "https://9yy8z1s220v41j20541qabme-wpengine.netdna-ssl.com/wp-content/themes/emerald/img/slider-arrow-prev.png"
+          },
+          {
+           "type": "BYTES",
+           "key": "SIZE_IN_BYTES",
+           "value": "103B"
+          },
+          {
+           "type": "PERCENTAGE",
+           "key": "PERCENTAGE",
+           "value": "25%"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "PrioritizeVisibleContent": {
+    "localizedRuleName": "Prioritize visible content",
+    "ruleImpact": 0.0,
+    "groups": [
+     "SPEED"
+    ],
+    "summary": {
+     "format": "You have the above-the-fold content properly prioritized. Learn more about {{BEGIN_LINK}}prioritizing visible content{{END_LINK}}.",
+     "args": [
+      {
+       "type": "HYPERLINK",
+       "key": "LINK",
+       "value": "https://developers.google.com/speed/docs/insights/PrioritizeVisibleContent"
+      }
+     ]
+    }
+   }
+  }
+ },
+ "version": {
+  "major": 1,
+  "minor": 15
+ }
+}
